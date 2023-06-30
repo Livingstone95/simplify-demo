@@ -1,0 +1,15 @@
+project             = "cosmic-kayak-343810"
+region              = "europe-west2"
+service_identity    = "cloudidentity.googleapis.com"
+service_run         = "run.googleapis.com"
+ingress             = "INGRESS_TRAFFIC_ALL"
+image_a             = "livingstone03/public-app:latest"
+image_b             = "livingstone03/app-py:latest"
+role_service_a      = "roles/run.invoker"
+role_service_b      = "roles/run.invoker"
+account_id_identity = "segun-cloud-identity-id"
+account_id_run      = "csegun-run-id"
+service_a_name      = "service-a"
+service_b_name      = "service-b"
+
+
