@@ -1,0 +1,19 @@
+# Python/Django
+*.pyc
+*__pycache__/
+
+# Secret keys and environment-specific settings
+.env
+*.env
+*README.md
+
+# Database files
+# *.db
+# *.sqlite3
+
+# Dependency directories
+*venv/
+*.env/
+*ceph.txt
+
+

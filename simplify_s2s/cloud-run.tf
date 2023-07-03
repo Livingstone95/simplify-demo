@@ -7,7 +7,7 @@ resource "google_cloud_run_v2_service" "service_a" {
     containers {
       image = var.image_a
       ports {
-        container_port = 80
+        container_port = 8001
       }
 
       env {
@@ -38,6 +38,9 @@ resource "google_cloud_run_v2_service" "service_b" {
   template {
     containers {
       image = var.image_b
+      ports {
+        container_port = 8000
+      }
     }
     service_account = google_service_account.run_simplify.email
   }

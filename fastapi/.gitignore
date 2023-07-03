@@ -1,0 +1,4 @@
+*.env
+*tolu-svca.json
+*__pycache__
+*cloudbuild.yaml
